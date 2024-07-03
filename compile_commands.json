@@ -1,134 +1,146 @@
 [
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/roguelike-main.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\roguelike-main.dir\\src\\main.cpp.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\src\\main.cpp\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/roguelike-main.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=gnu++20 -o CMakeFiles\\roguelike-main.dir\\src\\main.cpp.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\src\\main.cpp\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/src/main.cpp",
   "output": "CMakeFiles/roguelike-main.dir/src/main.cpp.obj"
 },
 {
+  "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe  @CMakeFiles/roguelike-main.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\roguelike-main.dir\\src\\glad.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\src\\glad.c\"",
+  "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/src/glad.c",
+  "output": "CMakeFiles/roguelike-main.dir/src/glad.c.obj"
+},
+{
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\context.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\context.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\context.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\context.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/context.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\init.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\init.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\init.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\init.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/init.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\input.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\input.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\input.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\input.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/input.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\monitor.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\monitor.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\monitor.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\monitor.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/monitor.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\platform.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\platform.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\platform.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\platform.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/platform.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/platform.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\vulkan.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\vulkan.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/vulkan.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\window.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\window.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\window.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\window.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/window.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\egl_context.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\egl_context.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/egl_context.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\osmesa_context.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\osmesa_context.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/osmesa_context.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\null_init.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\null_init.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_init.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\null_init.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/null_init.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\null_monitor.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\null_monitor.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_monitor.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\null_monitor.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/null_monitor.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\null_window.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\null_window.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_window.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\null_window.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/null_window.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\null_joystick.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\null_joystick.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_joystick.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\null_joystick.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/null_joystick.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\win32_module.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\win32_module.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_module.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\win32_module.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/win32_module.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\win32_time.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\win32_time.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/win32_time.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\win32_thread.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\win32_thread.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/win32_thread.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\win32_init.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\win32_init.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/win32_init.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\win32_joystick.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\win32_joystick.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/win32_joystick.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\win32_monitor.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\win32_monitor.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/win32_monitor.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\win32_window.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\win32_window.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/win32_window.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
 },
 {
   "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glfw/src",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -std=c99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Wall -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\wgl_context.c\"",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c99 -Wall -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glfw\\src\\wgl_context.c\"",
   "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glfw/src/wgl_context.c",
   "output": "lib/thirdparty/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+},
+{
+  "directory": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/bin/lib/thirdparty/glm/glm",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE  @CMakeFiles/glm.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -std=c++20 -Wno-c++98-compat -Wno-c++98-compat-pedantic -o CMakeFiles\\glm.dir\\detail\\glm.cpp.obj -c \"C:\\Users\\wsant\\Documents\\Programming Projects\\roguelike-toy\\lib\\thirdparty\\glm\\glm\\detail\\glm.cpp\"",
+  "file": "C:/Users/wsant/Documents/Programming Projects/roguelike-toy/lib/thirdparty/glm/glm/detail/glm.cpp",
+  "output": "lib/thirdparty/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj"
 }
 ]
