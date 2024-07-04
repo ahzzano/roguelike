@@ -74,7 +74,7 @@ int main(int argc, char *argv[]) {
   renderer.init();
 
   // currently in screen space space
-  player_rect = {0, 0, 100, 100};
+  player_rect = {0, 0, 300, 300};
 
   int width, height;
 

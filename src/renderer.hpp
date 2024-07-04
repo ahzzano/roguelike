@@ -11,6 +11,15 @@ struct Rect {
 
 typedef struct Rect Rect;
 
+class Sprite {
+  unsigned int textureId;
+
+public:
+  std::string file;
+  unsigned int id() { return textureId; }
+  void load(const std::string filename);
+};
+
 class Shader {
 private:
   unsigned int shaderId;
@@ -32,6 +41,9 @@ class Renderer {
   unsigned int attrib;
   unsigned int elementBuffer;
 
+  unsigned char *textureData;
+  unsigned int texture;
+
   int screenWidth;
   int screenHeight;
 
@@ -51,4 +63,6 @@ public:
 
   void init();
   void drawRect(Rect &rect);
+  void drawSprite(Rect &rect, Sprite &sprite);
+  void loadImage();
 };
