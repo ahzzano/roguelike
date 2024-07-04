@@ -1,3 +1,7 @@
+/**
+ *   Hello! Welcome to my Roguelike game
+ */
+
 #include <glad/glad.h>
 
 #include <GLFW/glfw3.h>
@@ -69,14 +73,16 @@ int main(int argc, char *argv[]) {
   Renderer renderer;
   renderer.init();
 
-  player_rect = {0, 0, 0.5, 0.5};
-  renderer.setupRect(player_rect);
+  // currently in screen space space
+  player_rect = {0, 0, 100, 100};
 
   int width, height;
 
   while (!glfwWindowShouldClose(window)) {
 
     glfwGetFramebufferSize(window, &width, &height);
+    glViewport(0, 0, width, height);
+    renderer.setScreenDimensions(width, height);
 
     glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
@@ -84,11 +90,11 @@ int main(int argc, char *argv[]) {
     renderer.drawRect(player_rect);
 
     if (wPressedDown) {
-      player_rect.y += 0.005;
+      player_rect.y += 5;
     }
 
     if (sPressedDown) {
-      player_rect.y -= 0.005;
+      player_rect.y -= 5;
     }
 
     if (isWireframe) {

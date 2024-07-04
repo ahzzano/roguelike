@@ -15,5 +15,10 @@ file(GLOB_RECURSE C_SOURCES CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/src/*
 add_executable("${CMAKE_PROJECT_NAME}")
 target_sources("${CMAKE_PROJECT_NAME}" PRIVATE ${SOURCES} ${C_SOURCES})
 
+add_custom_target(copy_assets
+    COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_CURRENT_SOURCE_DIR}/assets ${CMAKE_CURRENT_SOURCE_DIR}/bin/assets
+)
+add_dependencies(${CMAKE_PROJECT_NAME} copy_assets)
+
 target_include_directories("${CMAKE_PROJECT_NAME}" PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include/")
 target_link_libraries("${CMAKE_PROJECT_NAME}" PRIVATE glfw glm)
